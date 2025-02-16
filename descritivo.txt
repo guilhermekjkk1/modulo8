@@ -1,0 +1,29 @@
+Trabalho Prático: Sistema de Gerenciamento para Loja de Varejo
+
+
+Introdução
+A empresa fictícia que estamos modelando é uma loja de varejo que vende produtos variados, como eletrônicos, roupas e alimentos. O sistema desenvolvido permite que gerentes e funcionários gerenciem os produtos e os usuários da loja. O sistema tem controle de acesso, com permissões específicas para cada nível de usuário.
+
+
+Usuários
+Estrutura de Dados: Utilizamos uma lista de dicionários para armazenar as informações dos usuários. Cada dicionário contém os campos nome, senha e nivel.
+Arquivo de Registro: Os usuários são armazenados em um arquivo CSV chamado usuarios.csv, que contém as colunas nome, senha e nivel.
+Funcionalidades CRUD:
+Create: Adicionar novos usuários.
+Read: Listar os usuários existentes.
+Update: Editar as informações de um usuário.
+Delete: Remover um usuário do sistema.
+
+
+Produtos
+Estrutura de Dados: Os produtos são armazenados em uma lista de dicionários, onde cada dicionário contém codigo, nome, preco e quantidade.
+Arquivo de Registro: O arquivo produtos.csv contém as colunas codigo, nome, preco e quantidade.
+Funcionalidades CRUD:
+Create: Adicionar novos produtos ao sistema.
+Read: Listar produtos, buscar por nome ou código, e ordenar por nome e preço.
+Update: Editar informações dos produtos.
+Delete: Remover produtos.
+
+
+Conclusão
+Durante o desenvolvimento, uma das maiores dificuldades foi o tratamento dos arquivos CSV para garantir o carregamento correto dos dados. Optamos por usar listas de dicionários para simplificar a manipulação dos dados, mas consideramos que uma abordagem com banco de dados seria interessante para um sistema mais robusto. No geral, o projeto foi bem-sucedido e cumpre os requisitos do trabalho.
